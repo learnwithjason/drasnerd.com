@@ -17,7 +17,19 @@ title: Drasnerd
     border-radius: 1rem;
     margin: 0;
     padding: 1rem;
-    width: calc(33% - 1rem);
+    width: 100%;
+  }
+
+  @media screen and (min-width: 769px){
+      .glossary-term {
+        width: calc(50% - 1rem);
+      }
+  }
+
+  @media screen and (min-width: 1200px){
+      .glossary-term {
+        width: calc(33% - 1rem);
+      }
   }
 </style>
 
